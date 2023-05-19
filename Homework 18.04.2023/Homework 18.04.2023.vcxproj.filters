@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Internal">
+      <UniqueIdentifier>{e8c1509c-ebcc-4cee-b8c7-2765a6c88a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{81b6dcc8-f5d0-4c6c-aecc-017d9f4c3aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\models">
+      <UniqueIdentifier>{e675cd3d-28f0-42e5-bcbf-e0b1a6d5f437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\providers">
+      <UniqueIdentifier>{2ac99d02-b5f1-4a1e-919e-5b9b7a1d7551}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="domain\models\Point.h">
+      <Filter>domain\models</Filter>
+    </ClInclude>
+    <ClInclude Include="domain\providers\operators_overloaded.h">
+      <Filter>domain\providers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
